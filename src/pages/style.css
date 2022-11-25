@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+  text-decoration: none;
+  
+}
+
+.first-screen-fixtures {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 70px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.fixture-card-cover {
+  margin: 20px 0;
+}
+.first-screen-field-cover{
+  display: flex;
+  margin-top: 30px;
+  justify-content: right;
+  margin-right: 40px;
+  width: 100%;
+}
+.first-screen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fixture-card-link{
+  width: 30%;
+}
+.first-screen-input-field {
+  display: flex;
+  border: 1.85px #e0e1e3 solid;
+  border-radius: 7px;
+  height: min-content;
+  align-items: center;
+  padding: 2px 5px;
+}
+.first-screen-input-field > input:focus {
+  outline: none;
+}
+.first-screen-input-field > input {
+  border: 0;
+  width: 400px;
+  height: 30px;
+}
+.first-screen-input-field > img {
+display: block;
+  width: 22px;
+  margin: 3px;
+  margin-right:8px;
+  height: 22px;
+}
